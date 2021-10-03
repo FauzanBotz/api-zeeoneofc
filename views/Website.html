@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A REST APIs website that provides a wide variety of features for developers.">
+    <meta name="robots" content="archive, follow, imageindex, index, odp, snippet, translate">
+    <meta name="author" content="LoL Human">
+    <title>LoL Human - REST APIs</title>
+    <meta property="og:site_name" name="og:site_name" content="LoL Human APIs">
+    <meta property="og:title" name="og:title" content="LoL Human - REST APIs">
+    <meta property="og:url" name="og:url" content="https://api.lolhuman.xyz/">
+    <meta property="og:image" name="og:image" content="/static/icon/android-icon-192x192.png">
+    <meta property="og:description" name="og:description" content="A REST APIs website that provides a wide variety of features for developers.">
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/icon/apple-icon-180x180.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/icon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://api.lolhuman.xyz/">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/css/nucleo-icons.css">
+    <link rel="stylesheet" href="/static/fontawesome5/css/all.min.css">
+    <link rel="stylesheet" href="/static/flaticon/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="/static/css/black-dashboard.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body class="dark-mode" data-background-color="dark">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-wrapper card-round">
+                <div class="logo text-center">
+                    <a href="/" class="simple-text logo-normal" style="font-size: large;">
+                        LoL Human APIs
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li class="active" >
+                        <a href="/docs">
+                            <i class="fi-rr-cookie"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/pricing">
+                            <i class="fi-rr-money"></i>
+                            <p>Pricing</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/changelog">
+                            <i class="fi-rr-refresh"></i>
+                            <p>Changelog</p>
+                        </a>
+                    </li>
+                    <hr>
+                    <li >
+                        <a href="/docs/islami">
+                            <i class="far fa-quran"></i>
+                            <p>Islami</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/downloader">
+                            <i class="fi-rr-download"></i>
+                            <p>Downloader</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/movie">
+                            <i class="fi-rr-video-camera"></i>
+                            <p>Movie & Story</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/textprome">
+                            <i class="fi-rr-text"></i>
+                            <p>Text Pro Me</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/photooxy">
+                            <i class="fi-rr-camera"></i>
+                            <p>Photo Oxy</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/ephoto">
+                            <i class="fi-rr-cursor-text"></i>
+                            <p>Ephoto 360</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/searching">
+                            <i class="fi-rr-search-alt"></i>
+                            <p>Searching</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/randomimage">
+                            <i class="fi-rr-gallery"></i>
+                            <p>Random Image</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/randomtext">
+                            <i class="fi-rr-align-center"></i>
+                            <p>Random Text</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/animanga">
+                            <i class="fi-rr-crown"></i>
+                            <p>AniManga</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/information">
+                            <i class="fi-rr-info"></i>
+                            <p>Information</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/news">
+                            <i class="fal fa-newspaper"></i>
+                            <p>News</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/meme">
+                            <i class="fab fa-themeisle"></i>
+                            <p>Meme</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/entertainment">
+                            <i class="fal fa-smile"></i>
+                            <p>Entertainment</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/game">
+                            <i class="fal fa-gamepad-alt"></i>
+                            <p>Game</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/photoeditor">
+                            <i class="fi-rr-fill"></i>
+                            <p>Photo Editor</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/creator">
+                            <i class="fi-rr-magic-wand"></i>
+                            <p>Creator</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/converter">
+                            <i class="fal fa-recycle"></i>
+                            <p>Converter</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/primbon">
+                            <i class="fi-rr-password"></i>
+                            <p>Primbon</p>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/docs/stalking">
+                            <i class="fi-rr-stats"></i>
+                            <p>Stalking</p>
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 8rem !important;" >
+                        <a href="/docs/other">
+                            <i class="fi-rr-tooth"></i>
+                            <p>Other</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper">
+                        <div class="navbar-toggle d-inline">
+                            <button type="button" class="navbar-toggler">
+                                <span class="navbar-toggler-bar bar1"></span>
+                                <span class="navbar-toggler-bar bar2"></span>
+                                <span class="navbar-toggler-bar bar3"></span>
+                            </button>
+                        </div>
+                        <a class="navbar-brand" href="#">Dashboard</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar navbar-kebab"></span>
+                        <span class="navbar-toggler-bar navbar-kebab"></span>
+                        <span class="navbar-toggler-bar navbar-kebab"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown no-arrow">
+                                <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="tim-icons icon-zoom-split"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-search p-3 shadow animated--grow-in dark-color" aria-labelledby="searchDropdown" style="border: none;">
+                                    <form class="navbar-search" action="/search" method="GET">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <button class="input-group-text" type="submit">
+                                                    <i class="tim-icons icon-zoom-split"></i>
+                                                </button>
+                                            </div>
+                                            <input type="text" class="form-control" name="q" placeholder="Search" autocomplete="off" required>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                    <div class="photo">
+                                        <img src="https://i.ibb.co/JdfQ73m/photo-2021-02-05-10-13-39.jpg" alt="Profile Photo">
+                                    </div>
+                                    <b class="caret d-none d-lg-block d-xl-block"></b>
+                                    <p class="d-lg-none">
+                                        Guest
+                                    </p>
+                                </a>
+                                <ul class="dropdown-menu dropdown-navbar dropdown-user">
+                                    <div class="dropdown-user-scroll scrollbar-outer">
+                                        <li>
+                                            <div class="user-box">
+                                                <div class="avatar-lg"><img src="https://i.ibb.co/JdfQ73m/photo-2021-02-05-10-13-39.jpg" alt="image profile" class="avatar-img rounded"></div>
+                                                <div class="u-text">
+                                                    <h4>Guest</h4>
+                                                    <p class="text-muted"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c8afbdadbbbc88a4a7a4a0bda5a9a6e6b0b1b2">[email&#160;protected]</a></p><a href="/profile" class="btn btn-xs btn-primary btn-sm">View Profile</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="/login">Login</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="/register">Register</a> 
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="separator d-lg-none"></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+                
+<div class="row row-card-no-pd mt--2">
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-eye text-primary"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">Visitor</p>
+                            <h4 class="card-title" id="visitor">
+                                121027
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-user text-danger"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">User</p>
+                            <h4 class="card-title" id="user">
+                                3839
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-shopping-cart text-success"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">Requests</p>
+                            <h4 class="card-title" id="requests">
+                                6564509
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-time-twenty-four text-warning"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">Today</p>
+                            <h4 class="card-title" id="requests_today">
+                                17386
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row row-card-no-pd mt--2">
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-settings-sliders text-warning"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">Features</p>
+                            <h4 class="card-title">624</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-check text-success"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">Active</p>
+                            <h4 class="card-title">
+                                624
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-cross-circle text-danger"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">Error</p>
+                            <h4 class="card-title">
+                                0
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                            <i class="fi-rr-time-twenty-four text-warning"></i>
+                        </div>
+                    </div>
+                    <div class="col-7 col-stats">
+                        <div class="numbers">
+                            <p class="card-category">User Request</p>
+                            <h4 class="card-title" id="requests_today">
+                                Login First
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mt--2">
+    <div class="col-sm-12 col-md-12">
+        <div class="card card-stats card-round">
+            <div class="card-header">
+                <h3 style="margin-bottom: 0">
+                    <i class="fas fa-ruler text-danger"></i> S&K
+                </h3>
+            </div>
+            <div class="card-body mb-3">
+                <ol>
+                    <li>Jangan flooding requests.</li>
+                    <li>
+                        Membuat banyak akun pada IP yang sama maka IP otomatis akan di block.
+                    </li>
+                    <li>
+                        Owner dapat sewaktu waktu mengubah ketentuan di website ini, demi menjaga kualitas website.
+                    </li>
+                    <li>
+                        Dilarang keras untuk menyebarkan apikey Anda, jika ketahuan. InsyaAllah akan di block :)
+                    </li>
+                    <li>Jangan ditembak atuh, sakit.</li>
+                    <li>
+                        Owner tidak bertanggung jawab atas apa yang Anda lakukan dalam penggunaan website ini.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mt--2">
+    <div class="col-sm-12 col-md-6">
+        <div class="card card-stats card-round">
+            <div class="card-header">
+                <h3 style="margin-bottom: 0">
+                    <i class="fal fa-sparkles text-success"></i> Thanks To
+                </h3>
+            </div>
+            <div class="card-body mb-2">
+                <ul>
+                    <li>Allah SWT.</li>
+                    <li>My Parents</li>
+                    <li>My Friends</li>
+                    <li>Heroku</li>
+                    <li>Mat</li>
+                    <li>Pais</li>
+                    <li>Ben</li>
+                    <li>Faiz</li>
+                    <li>Kee</li>
+                    <li>Krypton Byte</li>
+                    <li>Chipa</li>
+                    <li>ArugaZ</li>
+                    <li>Bang Hasan</li>
+                    <li>
+                        And all of you who have used the web wisely and always supported me.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+        <div class="card card-stats card-round">
+            <div class="card-header">
+                <h3 style="margin-bottom: 0">
+                    <i class="fi-rr-headset text-warning"></i> Contact Me
+                </h3>
+            </div>
+            <div class="card-body mb-2">
+                <p>Hello, Everyone!</p>
+                <ul>
+                    <li>Interested in buying Premium or VIP?</li>
+                    <li>Found 1 or more bugs?</li>
+                    <li>Request Features?</li>
+                </ul>
+                <p>You can contact me via</p>
+                <p>
+                    <a href="https://wa.me/62895418200111" class="text-white">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </p>
+                <p>
+                    <a href="https://t.me/LoLHumen" class="text-white">
+                        <i class="fab fa-telegram-plane"></i> Telegram
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/lolhuman.xyz/" class="text-white">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script>
+    setInterval(function() {
+        $.getJSON("/", function(data) {
+            $("#visitor").html(data.visitor);
+            $("#requests").html(data.requests);
+            $("#requests_today").html(data.requests_today);
+        });
+    }, 1000);
+</script> -->
+
+            </div>
+            <footer class="footer fixed-bottom">
+                <div class="copyright text-center my-auto">
+                    Made with <i class="fa fa-heart"></i> by
+                    <a href="https://t.me/LoLHumen" target="_blank" rel="nofollow">LoL Human</a>
+                    </span>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/static/js/core/jquery.min.js"></script>
+    <script src="/static/js/core/popper.min.js"></script>
+    <script src="/static/js/core/bootstrap.min.js"></script>
+    <script src="/static/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/static/js/plugins/bootstrap-notify.js"></script>
+    <script src="/static/js/black-dashboard.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>
+
+</html>
+
+</html>
